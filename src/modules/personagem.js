@@ -1,10 +1,16 @@
 export class Personagem {
-	nome
-	vida
-	mana
+	nome // a declaração fora do constructor é opcional
+	vida = 100
+	mana = 100
 	level
 	tipo
 	descricao
+
+	constructor(nome, level, tipo) {
+		this.nome = nome
+		this.level = level
+		this.tipo = tipo
+	}
 
 	obterInsignia() {
 		if (this.level >= 5) {
