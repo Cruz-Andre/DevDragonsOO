@@ -17,4 +17,4 @@
 
 # Rodar o projeto
 
-Utilize o plugin liveServer
+Utilize o plugin liveServer do vsconde
