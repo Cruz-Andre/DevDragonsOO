@@ -22,9 +22,12 @@
 - Sobrescrever métodos com polimorfismo; :white_check_mark:
 - Utilizar parte de uma classe em outra com composição. :white_check_mark:
 ### Aula 4:
-- 
+- Criar e acessar propriedades estáticas; :white_check_mark:
+- Criar e acessar métodos estáticos. :white_check_mark:
 ### Aula 5:
-- 
+- Utilizar encapsulamento e criar propriedades privadas; :white_check_mark:
+- Criar o método get para retornar o valor de uma propriedade privada; :white_check_mark:
+- Empregar o método set para alterar o valor de uma propriedade privada. :white_check_mark:
 
 ## Rodar o projeto
 

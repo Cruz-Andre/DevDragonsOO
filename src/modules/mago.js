@@ -3,14 +3,15 @@ import { Personagem } from "./personagem.js"
 // o Mago herda as propriedade da classe Personagem
 export class Mago extends Personagem {
   //propriedades declaradas
+  static tipo = 'Mago'
+  static descricao = 'O mago é implacável!'
   elementoMagico
   levelMagico
   inteligencia
-  tipo = 'Mago'
   
-  constructor(nome, level, elementoMagico, levelMagico, inteligencia) {
+  constructor(nome, elementoMagico, levelMagico, inteligencia) {
     
-    super(nome, level)// São algumas das propriedades da classe pai Personagem
+    super(nome)// São algumas das propriedades da classe pai Personagem
 
     this.elementoMagico = elementoMagico
     this.levelMagico = levelMagico
